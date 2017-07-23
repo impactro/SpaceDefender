@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{bf42e05d-f8f7-4b87-b988-0b807a005f34}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e7929be5-1ee8-4965-b945-dbcfca5eae1f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{04e977ed-1f80-43a4-8143-8cfacd1b736d}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="LIB 1.7">
+      <UniqueIdentifier>{95a4c0b9-b64e-4dd8-b925-06cd68260885}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ViewDL.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIB1.7\ddutil.cpp">
+      <Filter>LIB 1.7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIB1.7\DL.CPP">
+      <Filter>LIB 1.7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIB1.7\dLib.cpp">
+      <Filter>LIB 1.7</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Estudos\Microsoft SDK\Samples\Multimedia\Common\include\ddutil.h">
+      <Filter>LIB 1.7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIB1.7\DL1.H">
+      <Filter>LIB 1.7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIB1.7\dLib.h">
+      <Filter>LIB 1.7</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ViewDL.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

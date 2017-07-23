@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ViewDL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Fabio\CONFIG~1\Temp\RSP10B.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_TESTE" /FR"Release/" /Fp"Release/ViewDL.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"W:\GAMEs\SpaceDefender\LIB1.7\dLib.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Fabio\CONFIG~1\Temp\RSP10B.tmp" 
+Creating temporary file "D:\DOCUME~1\Fabio\CONFIG~1\Temp\RSP10C.tmp" with contents
+[
+dxguid.lib winmm.lib ddraw.lib gdi32.lib kernel32.lib user32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ViewDL.pdb" /machine:I386 /out:"Release/ViewDL.exe" 
+.\Release\ViewDL.obj
+.\Release\ddutil.obj
+.\Release\DL.OBJ
+.\Release\dLib.obj
+.\Release\ViewDL.res
+]
+Creating command line "link.exe @D:\DOCUME~1\Fabio\CONFIG~1\Temp\RSP10C.tmp"
+<h3>Output Window</h3>
+Compiling...
+dLib.cpp
+W:\GAMEs\SpaceDefender\LIB1.7\dLib.cpp(203) : warning C4101: 'bBombaCurrent' : unreferenced local variable
+W:\GAMEs\SpaceDefender\LIB1.7\dLib.cpp(203) : warning C4101: 'bTiroCurrent' : unreferenced local variable
+W:\GAMEs\SpaceDefender\LIB1.7\dLib.cpp(206) : warning C4101: 'cVar' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/ViewDL.bsc"  .\Release\ViewDL.sbr .\Release\ddutil.sbr .\Release\DL.SBR .\Release\dLib.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ViewDL.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
